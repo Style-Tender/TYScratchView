@@ -13,6 +13,7 @@
 		1881592C20F044E40086BAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1881592B20F044E40086BAC5 /* Assets.xcassets */; };
 		1881592F20F044E40086BAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1881592D20F044E40086BAC5 /* LaunchScreen.storyboard */; };
 		1881593220F044E40086BAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881593120F044E40086BAC5 /* main.m */; };
+		1881593A20F047F30086BAC5 /* TYScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1881593920F047F30086BAC5 /* TYScratchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1881592E20F044E40086BAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1881593020F044E40086BAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1881593120F044E40086BAC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1881593820F047F30086BAC5 /* TYScratchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYScratchView.h; sourceTree = "<group>"; };
+		1881593920F047F30086BAC5 /* TYScratchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYScratchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1881592D20F044E40086BAC5 /* LaunchScreen.storyboard */,
 				1881593020F044E40086BAC5 /* Info.plist */,
 				1881593120F044E40086BAC5 /* main.m */,
+				1881593820F047F30086BAC5 /* TYScratchView.h */,
+				1881593920F047F30086BAC5 /* TYScratchView.m */,
 			);
 			path = "图片擦除";
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				1881592720F044E20086BAC5 /* ViewController.m in Sources */,
 				1881593220F044E40086BAC5 /* main.m in Sources */,
+				1881593A20F047F30086BAC5 /* TYScratchView.m in Sources */,
 				1881592420F044E20086BAC5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
